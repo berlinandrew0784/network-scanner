@@ -15,8 +15,8 @@ function clog(...args)
 let scanned = {}
 
 // subnets to scan for
-let subnets = [prompt(""),
-/*  '10.0.0.1',
+let subnets = [/*prompt(""),*/
+ '10.0.0.1',
   '10.0.0.138',
   '10.0.0.2',
   '10.0.1.1',
@@ -50,7 +50,7 @@ let subnets = [prompt(""),
   '192.168.2.254',
   '192.168.223.100',
   '192.168.254.254',
-  //'200.200.200.5',*/
+  //'200.200.200.5',
 ]
 
 let candidateKeys = ["address", "candidate", "component", "foundation", "port", "priority", "protocol", "relatedAddress", "relatedPort", "sdpMLineIndex", "sdpMid", "tcpType", "type", "usernameFragment"]
